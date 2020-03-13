@@ -4,6 +4,14 @@
  - nav
  - sections, width for body */
 
+/* main {
+display:grid;
+grid-template-columns: 10% auto 10%;
+grid-template-rows: 10% auto 10%;
+} */
+
+
+
 body {
     width: 480px;
     margin: auto;
@@ -44,19 +52,22 @@ section:nth-child(4), section:nth-child(5), section:nth-child(6),section:nth-chi
     height: 250px;
     width: 50%;
     line-height: 250px;
-    float: left;
+    
 }
 
 section:nth-child(4){
     background-color: red;
+    
 }
 
 section:nth-child(5){
     background-color: orange;
+    
 }
 
 section:nth-child(6){
     background-color: pink;
+
 }
 
 section:nth-child(7){
@@ -67,11 +78,11 @@ footer{
     height: 80px;
     line-height: 80px;
     background-color: purple;
-    clear: both;
+    
 }
 
 
-
+/* Desktop */
  @media (min-width:768px){
 
 body {
@@ -91,7 +102,7 @@ header {
     line-height: 600px;
     width: 200px;
     background-color: coral;
-    float: left;
+    
 }
 
 /* section c,d */
@@ -100,7 +111,7 @@ section:nth-child(2), section:nth-child(3){
     line-height: 200px;
     width: 380px;
     background-color: rgb(5, 110, 110);
-    float: left;
+    
 }
 
 /* section d color */
@@ -113,7 +124,7 @@ section:nth-child(4), section:nth-child(5), section:nth-child(6),section:nth-chi
     height: 250px;
     width: 190px;
     line-height: 250px;
-    float: left;
+   
 }
 
 section:nth-child(4){
@@ -137,10 +148,7 @@ footer {
     height: 150px;
     line-height: 150px;
     width: 760px;
-    background-color: rgb(236, 124, 236);
-    clear: both;
-    display: inline-block;
-    /* float: right; */
+    background-color: rgb(82, 7, 82);
     
 }
 
